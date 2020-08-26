@@ -1,0 +1,63 @@
+#!/bin/bash
+MODE=$(dialog --backtitle "gce v1.0.0" \
+	--title "Graphics card enabler" \
+	--cancel-label "Shell" \
+	--menu "Choose a mode" 0 30 0 \
+	1 "Single display" \
+	2 "Multiple displays" \
+	3 "Root Shell" \
+	3>&1 1>&2 2>&3)
+
+if (( $MODE == 1 ))
+then
+
+clear
+
+echo " "
+echo " "
+neofetch
+startxfce4
+
+exit 1
+
+fi
+
+if (( $MODE == 2))
+then
+
+clear
+sudo optirun neofetch
+clear
+echo " "
+echo " "
+neofetch
+startxfce4
+
+exit 2
+
+fi
+
+if (( $MODE == 3 ))
+then
+
+clear
+echo " "
+echo " "
+neofetch
+su
+
+exit 3
+
+fi
+
+if (( $MODE !-n )) 
+then
+
+clear
+echo " "
+echo " "
+neofetch
+
+exit 3
+
+fi
