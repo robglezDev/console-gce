@@ -1,7 +1,7 @@
 # gce
 gce is a very simple script for GNU/Linux systems to enable one of the Graphics cards for NVIDIA Optimus enabled laptops by using Bumblebee, sudo, dialog and adding a bit of rice with neofetch.
 
-![alt text](https://raw.githubusercontent.com/robglezDev/gce/master/gce_screenshot.png?)
+![alt text](https://raw.githubusercontent.com/robglezDev/gce/master/gce_screenshot.png)
 
 It allows you to choose between the intel or the NVIDIA graphics cards when you log in by displaying a Single or Multi displays option for laptops with the HDMI output hard wired to the NVIDIA graphics card and users that want to use their NVIDIA graphics card.
 ## Installing
