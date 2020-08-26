@@ -10,7 +10,7 @@ It allows you to choose between the intel or the NVIDIA graphics cards when you 
 - Add ```bash gce``` to your ```.profile```, ```.bash_profile```, ```.zprofile``` or etc. to execute as last command. (This makes the gce dialog appear and allow you to choose what mode you want to continue with.
 - Change ```startxfce4``` to your desktop environment. 
 ### Dependencies 
-You must have [Bumblebee](https://wiki.archlinux.org/index.php/Bumblebee), [sudo](https://wiki.archlinux.org/index.php/Sudo) [dialog](https://www.archlinux.org/packages/core/x86_64/dialog/) and [neofetch](https://github.com/dylanaraps/neofetch) to use gce. (You can skip neofetch if you don't want to use it)
+You must have [Bumblebee](https://wiki.archlinux.org/index.php/Bumblebee), [sudo](https://wiki.archlinux.org/index.php/Sudo) [dialog](https://www.archlinux.org/packages/core/x86_64/dialog/) and [neofetch](https://github.com/dylanaraps/neofetch) to use gce.
 ## Usage
 After logging in:
 - Choose ```Single monitor``` to use the Intel graphics card
