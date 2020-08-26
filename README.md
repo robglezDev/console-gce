@@ -18,7 +18,7 @@ After logging in:
 ## Credits
 - **robglezDev** - *gce script* - [robglezDev](https://github.com/robglezDev)
 - gce is inspired by CDM and console-tdm as I like to see and use dialog.
-## Unnstalling
+## Uninstalling
 - Run ```uninstall.sh``` as root
 - Remove ```bash gce``` from your ```.profile```, ```.bash_profile```, ```.zprofile``` or etc.
 ## License
