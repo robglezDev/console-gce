@@ -16,7 +16,7 @@ After logging in:
 - Choose ```Single monitor``` to use the Intel graphics card
 - Choose ```Multiple monitors``` to use the NVIDIA graphics card. 
 ## Credits
-- **robglezDev** - *gce script* - [robglez](https://github.com/robglezDev)
+- **robglezDev** - *gce script* - [robglezDev](https://github.com/robglezDev)
 - gce is inspired by CDM and console-tdm as I like to see and use dialog.
 ## Unnstalling
 - Run ```uninstall.sh``` as root
