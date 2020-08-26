@@ -1,6 +1,6 @@
 #!/bin/bash
 
-dialog --backtitle "gce v1.0.0 installer" --title "ReadMe" --ok-label "Continue installation" --msgbox "To show gce when loggin in, you must add [ bash cge ] at the end of your .profile, .bash_profile, .zprofile or etc. to execute as last command. 
+dialog --backtitle "gce v1.0.0 installer" --title "ReadMe" --ok-label "Continue installation" --msgbox "To show gce when loggin in, you must add [ bash gce ] at the end of your .profile, .bash_profile, .zprofile or etc. to execute as last command. 
 
 This will execute gce when you log in. Otherwise, open the terminal and type gce." 0 0
 
